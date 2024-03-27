@@ -1,5 +1,7 @@
 ![logo](https://purpleorangegames.com/JustFloorTiles/SteamImages/JustFloorTiles.png)
 
+![img](https://purpleorangegames.com/JustFloorTiles/SteamImages/TemplateScreenshotJustFloorTilesWith.png)
+![img](https://purpleorangegames.com/JustFloorTiles/SteamImages/TemplateScreenshotJustFloorTilesWithout.png)
 
 ![img](https://purpleorangegames.com/JustFloorTiles/SteamImages/TemplateWoodFloor.png)
 ![img](https://purpleorangegames.com/JustFloorTiles/SteamImages/TemplateWoodFloorLight.png)
