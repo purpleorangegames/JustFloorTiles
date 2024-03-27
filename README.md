@@ -1,4 +1,4 @@
-[img]https://purpleorangegames.com/JustFloorTiles/SteamImages/JustFloorTiles.png[/img]
+![logo](https://purpleorangegames.com/JustFloorTiles/SteamImages/JustFloorTiles.png)
 
 
 ![img](https://purpleorangegames.com/JustFloorTiles/SteamImages/TemplateWoodFloor.png)
