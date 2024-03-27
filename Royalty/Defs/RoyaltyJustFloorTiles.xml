@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  	
+  <TerrainDef ParentName="FineTileSandstoneSpecial">
+    <defName>FineTileSandstoneSpecial</defName>
+    <label>fine special sandstone tile</label>
+    <texturePath>Terrain/Surfaces/TileStoneFineSpecial</texturePath>
+  </TerrainDef>
+
+  <TerrainDef ParentName="FineTileGraniteSpecial">
+    <defName>FineTileGraniteSpecial</defName>
+    <label>fine special granite tile</label>
+    <texturePath>Terrain/Surfaces/TileStoneFineSpecial</texturePath>
+  </TerrainDef>
+
+  <TerrainDef ParentName="FineTileLimestoneSpecial">
+    <defName>FineTileLimestoneSpecial</defName>
+    <label>fine special limestone tile</label>
+    <texturePath>Terrain/Surfaces/TileStoneFineSpecial</texturePath>
+  </TerrainDef>
+
+  <TerrainDef ParentName="FineTileSlateSpecial">
+    <defName>FineTileSlateSpecial</defName>
+    <label>fine special slate tile</label>
+    <texturePath>Terrain/Surfaces/TileStoneFineSpecial</texturePath>
+  </TerrainDef>
+
+  <TerrainDef ParentName="FineTileMarbleSpecial">
+    <defName>FineTileMarbleSpecial</defName>
+    <label>fine special marble tile</label>
+    <texturePath>Terrain/Surfaces/TileStoneFineSpecial</texturePath>
+  </TerrainDef>
+  
+  <TerrainTemplateDef ParentName="CarpetFineSpecial">
+    <defName>CarpetFineSpecial</defName>
+    <texturePath>Terrain/Surfaces/CarpetFineSpecial</texturePath>
+  </TerrainTemplateDef>
+  
+  <TerrainTemplateDef ParentName="CarpetFineSpecial">
+    <defName>CarpetFineLineHorizontal</defName>
+    <texturePath>Terrain/Surfaces/CarpetFineLineHorizontal</texturePath>
+  </TerrainTemplateDef>
+  
+  <TerrainTemplateDef ParentName="CarpetFineSpecial">
+    <defName>CarpetFineLineVertical</defName>
+    <texturePath>Terrain/Surfaces/CarpetFineLineVertical</texturePath>
+  </TerrainTemplateDef>
+  
+</Defs>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationReplace">
+        <xpath>Defs/TerrainDef[defName="SterileTile"]/texturePath</xpath>
+        <value>
+			<texturePath>Terrain/Surfaces/SterileTile</texturePath>
+        </value>
+    </Operation>
+	
+	<Operation Class="PatchOperationAdd">
+        <xpath>Defs/TerrainDef[defName="SilverTile"]</xpath>
+        <value>
+			<texturePath>Terrain/Surfaces/SilverMetalTile</texturePath>
+        </value>
+    </Operation>
+	
+	<Operation Class="PatchOperationAdd">
+        <xpath>Defs/TerrainDef[defName="GoldTile"]</xpath>
+        <value>
+			<texturePath>Terrain/Surfaces/GoldMetalTile</texturePath>
+        </value>
+    </Operation>
+	
+	<Operation Class="PatchOperationReplace">
+        <xpath>Defs/TerrainDef[defName="SilverTile"]/color</xpath>
+        <value>
+			<color>(0.83, 0.85, 0.85)</color>
+        </value>
+    </Operation>
+	
+	<Operation Class="PatchOperationReplace">
+        <xpath>Defs/TerrainDef[defName="GoldTile"]/color</xpath>
+        <value>
+			<color>(0.90, 0.69, 0.10)</color>
+        </value>
+    </Operation>
+	
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/TerrainDef[defName="WoodPlankFloor"]/designatorDropdown</xpath>
+        <nomatch Class="PatchOperationSequence">
+          <operations>
+            <li Class="PatchOperationAdd">
+            <xpath>Defs/TerrainDef[defName="WoodPlankFloor"]</xpath>
+            <value>
+                <designatorDropdown>Vanilla_Floor_Wood</designatorDropdown>
+            </value>
+            </li>
+            <li Class="PatchOperationAttributeAdd">
+                <xpath>Defs/TerrainDef[defName="WoodPlankFloor"]</xpath>
+                <attribute>Name</attribute>
+                <value>WoodPlankBase</value>
+            </li>
+          </operations>
+        </nomatch>
+        <match Class="PatchOperationSequence">
+          <operations>
+            <li Class="PatchOperationReplace">
+            <xpath>Defs/TerrainDef[defName="WoodPlankFloor"]/designatorDropdown</xpath>
+            <value>
+                <designatorDropdown>Vanilla_Floor_Wood</designatorDropdown>
+            </value>
+            </li>
+          </operations>
+        </match>
+    </Operation>
+	
+</Patch>

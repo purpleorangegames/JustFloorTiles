@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+  <name>JustFloorTiles</name>
+  <author>tiagocc0</author>
+  <supportedVersions>
+    <li>1.4</li>
+    <li>1.5</li>
+  </supportedVersions>
+  <modIconPath IgnoreIfNoMatchingField="True">UI/JustFloorTilesIcon</modIconPath>
+  <packageId>tiagocc0.JustFloorTiles</packageId>
+  <loadAfter></loadAfter>
+  <url></url>
+
+  <description>
+Retexture for wood floor (dark and light version), stone tiles, concrete, paved, metal and sterile tiles.
+
+This means that they will replace the current vanilla textures.
+
+Metal and sterile tiles were separated since they were using the same texture file in vanilla.
+
+If you want just the wood floor texture:
+https://steamcommunity.com/sharedfiles/filedetails/?id=3189695842
+
+If you want just the stone tile texture:
+https://steamcommunity.com/sharedfiles/filedetails/?id=3189952629
+
+If you want concrete, paved, metal or sterile as a individual mod like the two above, let me know.
+
+If you are already using the two individual mods for stone and wood, you probably need to remove then if you goind to use this one. Stone is just a texture so it might not give a problem, but for the wood floor I had to duplicate it to make the light version so it might pop an error when you start the game.
+
+---
+
+Added new texture for gold and silver metal tile, the vanilla texture was for metal, gold and silver, so now each has their own texture. Also change the color a bit.
+
+---
+
+Added royalty nice floor and a special nice floor as well, check out the screenshots. I kind of liked the original nice floor so I didn't tweak too much on it but added the special version that changes it quite a bit.
+
+  </description>
+</ModMetaData>
