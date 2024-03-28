@@ -25,8 +25,13 @@ Retexture for wood floor (dark and light version), stone tiles, concrete, paved,
 
 This means that they will replace the current vanilla textures.
 
+
+This mod for floor textures on steam: https://steamcommunity.com/workshop/filedetails/?id=3193619828
+
 If you want just the wood floor texture:
 https://steamcommunity.com/sharedfiles/filedetails/?id=3189695842
 
 If you want just the stone tile texture:
 https://steamcommunity.com/sharedfiles/filedetails/?id=3189952629
+
+Mod for walls: https://steamcommunity.com/sharedfiles/filedetails/?id=3204284370
