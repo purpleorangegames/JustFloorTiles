@@ -9,6 +9,7 @@
     <defName>WoodPlankFloorLight</defName>
     <label>light wood floor</label>
     <texturePath>Terrain/Surfaces/WoodFloorLight</texturePath>
+    <fertility>0</fertility>
   </TerrainDef>
     
 </Defs>
