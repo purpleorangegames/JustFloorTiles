@@ -1,26 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <loadFolders>
-  <v1.7>
-    <li>Common</li>
-    <li>1.7</li>
-    <li IfModActive="Ludeon.RimWorld.Royalty">Royalty</li>
-    <li IfModActive="Ludeon.RimWorld.Royalty">1.7/Royalty</li>
-  </v1.7>
   <!-- 1.4 to 1.6 use the old files -->
-  <v1.6>
-    <li IfModActive="VanillaExpanded.VFEArchitect">Legacy/FixName</li>
-    <li>Common</li>
-    <li>Legacy/Common</li>
-    <li IfModActive="Ludeon.RimWorld.Royalty">Royalty</li>
-    <li IfModActive="Ludeon.RimWorld.Royalty">Legacy/Royalty</li>
-  </v1.6>
-  <v1.5>
-    <li IfModActive="VanillaExpanded.VFEArchitect">Legacy/FixName</li>
-    <li>Common</li>
-    <li>Legacy/Common</li>
-    <li IfModActive="Ludeon.RimWorld.Royalty">Royalty</li>
-    <li IfModActive="Ludeon.RimWorld.Royalty">Legacy/Royalty</li>
-  </v1.5>
   <v1.4>
     <li IfModActive="VanillaExpanded.VFEArchitect">Legacy/FixName</li>
     <li>Common</li>
@@ -28,4 +8,24 @@
     <li IfModActive="Ludeon.RimWorld.Royalty">Royalty</li>
     <li IfModActive="Ludeon.RimWorld.Royalty">Legacy/Royalty</li>
   </v1.4>
+  <v1.5>
+    <li IfModActive="VanillaExpanded.VFEArchitect">Legacy/FixName</li>
+    <li>Common</li>
+    <li>Legacy/Common</li>
+    <li IfModActive="Ludeon.RimWorld.Royalty">Royalty</li>
+    <li IfModActive="Ludeon.RimWorld.Royalty">Legacy/Royalty</li>
+  </v1.5>
+  <v1.6>
+    <li IfModActive="VanillaExpanded.VFEArchitect">Legacy/FixName</li>
+    <li>Common</li>
+    <li>Legacy/Common</li>
+    <li IfModActive="Ludeon.RimWorld.Royalty">Royalty</li>
+    <li IfModActive="Ludeon.RimWorld.Royalty">Legacy/Royalty</li>
+  </v1.6>
+  <v1.7>
+    <li>Common</li>
+    <li>1.7</li>
+    <li IfModActive="Ludeon.RimWorld.Royalty">Royalty</li>
+    <li IfModActive="Ludeon.RimWorld.Royalty">1.7/Royalty</li>
+  </v1.7>
 </loadFolders>
