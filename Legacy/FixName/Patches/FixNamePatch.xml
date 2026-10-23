@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/TerrainDef[defName="WoodPlankFloor"]</xpath>
+        <match Class="PatchOperationAttributeAdd">
+            <xpath>Defs/TerrainDef[defName="WoodPlankFloor"]</xpath>
+            <attribute>Name</attribute>
+            <value>WoodPlankBase</value>
+        </match>
+    </Operation>
+</Patch>

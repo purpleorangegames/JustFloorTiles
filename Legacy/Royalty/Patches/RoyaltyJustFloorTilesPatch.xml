@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	
+	<Operation Class="PatchOperationAttributeAdd">
+        <xpath>Defs/TerrainDef[defName="FineTileSandstone"]</xpath>
+        <attribute>Name</attribute>
+        <value>FineTileSandstoneSpecial</value>
+    </Operation>
+	
+	<Operation Class="PatchOperationAttributeAdd">
+        <xpath>Defs/TerrainDef[defName="FineTileGranite"]</xpath>
+        <attribute>Name</attribute>
+        <value>FineTileGraniteSpecial</value>
+    </Operation>
+	
+	<Operation Class="PatchOperationAttributeAdd">
+        <xpath>Defs/TerrainDef[defName="FineTileLimestone"]</xpath>
+        <attribute>Name</attribute>
+        <value>FineTileLimestoneSpecial</value>
+    </Operation>
+	
+	<Operation Class="PatchOperationAttributeAdd">
+        <xpath>Defs/TerrainDef[defName="FineTileSlate"]</xpath>
+        <attribute>Name</attribute>
+        <value>FineTileSlateSpecial</value>
+    </Operation>
+	
+	<Operation Class="PatchOperationAttributeAdd">
+        <xpath>Defs/TerrainDef[defName="FineTileMarble"]</xpath>
+        <attribute>Name</attribute>
+        <value>FineTileMarbleSpecial</value>
+    </Operation>
+	
+	<Operation Class="PatchOperationAttributeAdd">
+        <xpath>Defs/TerrainTemplateDef[defName="CarpetFine"]</xpath>
+        <attribute>Name</attribute>
+        <value>CarpetFineSpecial</value>
+    </Operation>
+	
+</Patch>

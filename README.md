@@ -1,32 +1,16 @@
-![logo](https://purpleorangegames.com/JustFloorTiles/SteamImages/JustFloorTiles.png)
+# JustFloorTiles
 
-![img](https://purpleorangegames.com/JustFloorTiles/SteamImages/TemplateScreenshotJustFloorTilesWith.png)
-![img](https://purpleorangegames.com/JustFloorTiles/SteamImages/TemplateScreenshotJustFloorTilesWithout.png)
-
-![img](https://purpleorangegames.com/JustFloorTiles/SteamImages/TemplateWoodFloor.png)
-![img](https://purpleorangegames.com/JustFloorTiles/SteamImages/TemplateWoodFloorLight.png)
-![img](https://purpleorangegames.com/JustFloorTiles/SteamImages/TemplateConcreteTile.png)
-![img](https://purpleorangegames.com/JustFloorTiles/SteamImages/TemplatePavedTile.png)
-![img](https://purpleorangegames.com/JustFloorTiles/SteamImages/TemplateSteelTile.png)
-![img](https://purpleorangegames.com/JustFloorTiles/SteamImages/TemplateGoldTile.png)
-![img](https://purpleorangegames.com/JustFloorTiles/SteamImages/TemplateSilverTile.png)
-![img](https://purpleorangegames.com/JustFloorTiles/SteamImages/TemplateSterileTile.png)
-![img](https://purpleorangegames.com/JustFloorTiles/SteamImages/TemplateStoneTile.png)
-![img](https://purpleorangegames.com/JustFloorTiles/SteamImages/TemplateFineStoneTile.png)
-![img](https://purpleorangegames.com/JustFloorTiles/SteamImages/TemplateFineStoneTileSpecial.png)
-![img](https://purpleorangegames.com/JustFloorTiles/SteamImages/TemplateFineCarpetTile.png)
-![img](https://purpleorangegames.com/JustFloorTiles/SteamImages/TemplateFineCarpetTileSpecial.png)
-![img](https://purpleorangegames.com/JustFloorTiles/SteamImages/TemplateFineCarpetTileLineHorizontal.png)
-![img](https://purpleorangegames.com/JustFloorTiles/SteamImages/TemplateFineCarpetTileLineVertical.png)
-
----
-
-Retexture for wood floor (dark and light version), stone tiles, concrete, paved, metal and sterile tiles and fine stone and carpet and a few extra variations.
+Retexture for wood floor (dark and light version), stone tiles, concrete, paved, metal and sterile tiles.
 
 This means that they will replace the current vanilla textures.
 
+Metal and sterile tiles were separated since they were using the same texture file in vanilla.
 
-This mod for floor textures on steam: https://steamcommunity.com/workshop/filedetails/?id=3193619828
+Added new texture for gold and silver metal tile, the vanilla texture was for metal, gold and silver, so now each has their own texture. Also change the color a bit.
+
+With Royalty, adds a special version of the fine stone tiles and new fine carpets (special, horizontal line and vertical line). With Odyssey there is also a special fine vacstone tile.
+
+Steam version: https://steamcommunity.com/sharedfiles/filedetails/?id=3193619828
 
 If you want just the wood floor texture:
 https://steamcommunity.com/sharedfiles/filedetails/?id=3189695842
@@ -34,4 +18,18 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=3189695842
 If you want just the stone tile texture:
 https://steamcommunity.com/sharedfiles/filedetails/?id=3189952629
 
-Mod for walls: https://steamcommunity.com/sharedfiles/filedetails/?id=3204284370
+On 1.7 you can use this together with the two mods above without errors.
+
+## Versions
+
+1.7 uses the 1.7 folder, the Royalty floors are in 1.7/Royalty and only load with Royalty.
+
+1.4 to 1.6 use the old files in the Legacy folder.
+
+The textures are shared, Common for all and Royalty for the Royalty floors.
+
+## License
+
+CC0, you can do whatever you want with it, no need to give credits.
+
+AI was used to help code/fix issues

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- special fine tiles, same as the vanilla fine tiles with a different texture -->
+  <TerrainDef ParentName="FineTileStoneBase">
+    <defName>FineTileSandstoneSpecial</defName>
+    <label>fine special sandstone tile</label>
+    <texturePath>Terrain/Surfaces/TileStoneFineSpecial</texturePath>
+    <color>(147,127,118)</color>
+    <costList>
+      <BlocksSandstone>20</BlocksSandstone>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="FineTileStoneBase">
+    <defName>FineTileGraniteSpecial</defName>
+    <label>fine special granite tile</label>
+    <texturePath>Terrain/Surfaces/TileStoneFineSpecial</texturePath>
+    <color>(105,95,97)</color>
+    <costList>
+      <BlocksGranite>20</BlocksGranite>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="FineTileStoneBase">
+    <defName>FineTileLimestoneSpecial</defName>
+    <label>fine special limestone tile</label>
+    <texturePath>Terrain/Surfaces/TileStoneFineSpecial</texturePath>
+    <color>(158,153,135)</color>
+    <costList>
+      <BlocksLimestone>20</BlocksLimestone>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="FineTileStoneBase">
+    <defName>FineTileSlateSpecial</defName>
+    <label>fine special slate tile</label>
+    <texturePath>Terrain/Surfaces/TileStoneFineSpecial</texturePath>
+    <color>(70,70,70)</color>
+    <costList>
+      <BlocksSlate>20</BlocksSlate>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="FineTileStoneBase">
+    <defName>FineTileMarbleSpecial</defName>
+    <label>fine special marble tile</label>
+    <texturePath>Terrain/Surfaces/TileStoneFineSpecial</texturePath>
+    <color>(180,180,180)</color>
+    <costList>
+      <BlocksMarble>20</BlocksMarble>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="FineTileStoneBase" MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>FineTileVacstoneSpecial</defName>
+    <label>fine special vacstone tile</label>
+    <texturePath>Terrain/Surfaces/TileStoneFineSpecial</texturePath>
+    <color>(115,106,98)</color>
+    <costList>
+      <BlocksVacstone>20</BlocksVacstone>
+    </costList>
+  </TerrainDef>
+
+  <!-- special carpets, same as the vanilla fine carpet with a different texture -->
+  <TerrainTemplateDef>
+    <defName>CarpetFineSpecial</defName>
+    <label>fine special carpet ({0})</label>
+    <texturePath>Terrain/Surfaces/CarpetFineSpecial</texturePath>
+    <description>Luxurious, ornately-patterned carpet made from fibers dyed a single color. Beautiful to look at, but cleaning it is a labor-intensive process.</description>
+    <researchPrerequisites>
+      <li>CarpetMaking</li>
+    </researchPrerequisites>
+    <burnedDef>BurnedCarpet</burnedDef>
+    <designatorDropdown>Floor_Carpet_Fine</designatorDropdown>
+    <ignoreIllegalLabelCharacterConfigError>true</ignoreIllegalLabelCharacterConfigError>
+    <costList>
+      <Cloth>35</Cloth>
+    </costList>
+    <statBases>
+      <Beauty>4</Beauty>
+      <Flammability>0.32</Flammability>
+      <WorkToBuild>4000</WorkToBuild>
+      <CleaningTimeFactor>2</CleaningTimeFactor>
+    </statBases>
+    <tags>
+      <li>Floor</li>
+      <li>FineFloor</li>
+    </tags>
+    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+    <uiOrder>2110</uiOrder>
+    <renderPrecedenceStart>200</renderPrecedenceStart>
+  </TerrainTemplateDef>
+
+  <TerrainTemplateDef>
+    <defName>CarpetFineLineHorizontal</defName>
+    <label>fine horizontal line carpet ({0})</label>
+    <texturePath>Terrain/Surfaces/CarpetFineLineHorizontal</texturePath>
+    <description>Luxurious, ornately-patterned carpet made from fibers dyed a single color. Beautiful to look at, but cleaning it is a labor-intensive process.</description>
+    <researchPrerequisites>
+      <li>CarpetMaking</li>
+    </researchPrerequisites>
+    <burnedDef>BurnedCarpet</burnedDef>
+    <designatorDropdown>Floor_Carpet_Fine</designatorDropdown>
+    <ignoreIllegalLabelCharacterConfigError>true</ignoreIllegalLabelCharacterConfigError>
+    <costList>
+      <Cloth>35</Cloth>
+    </costList>
+    <statBases>
+      <Beauty>4</Beauty>
+      <Flammability>0.32</Flammability>
+      <WorkToBuild>4000</WorkToBuild>
+      <CleaningTimeFactor>2</CleaningTimeFactor>
+    </statBases>
+    <tags>
+      <li>Floor</li>
+      <li>FineFloor</li>
+    </tags>
+    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+    <uiOrder>2110</uiOrder>
+    <renderPrecedenceStart>200</renderPrecedenceStart>
+  </TerrainTemplateDef>
+
+  <TerrainTemplateDef>
+    <defName>CarpetFineLineVertical</defName>
+    <label>fine vertical line carpet ({0})</label>
+    <texturePath>Terrain/Surfaces/CarpetFineLineVertical</texturePath>
+    <description>Luxurious, ornately-patterned carpet made from fibers dyed a single color. Beautiful to look at, but cleaning it is a labor-intensive process.</description>
+    <researchPrerequisites>
+      <li>CarpetMaking</li>
+    </researchPrerequisites>
+    <burnedDef>BurnedCarpet</burnedDef>
+    <designatorDropdown>Floor_Carpet_Fine</designatorDropdown>
+    <ignoreIllegalLabelCharacterConfigError>true</ignoreIllegalLabelCharacterConfigError>
+    <costList>
+      <Cloth>35</Cloth>
+    </costList>
+    <statBases>
+      <Beauty>4</Beauty>
+      <Flammability>0.32</Flammability>
+      <WorkToBuild>4000</WorkToBuild>
+      <CleaningTimeFactor>2</CleaningTimeFactor>
+    </statBases>
+    <tags>
+      <li>Floor</li>
+      <li>FineFloor</li>
+    </tags>
+    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+    <uiOrder>2110</uiOrder>
+    <renderPrecedenceStart>200</renderPrecedenceStart>
+  </TerrainTemplateDef>
+
+</Defs>
